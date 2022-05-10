@@ -7,7 +7,12 @@ defmodule Heroicons.MixProject do
       version: "0.1.0",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      package: [
+        description: "Heroicons Components for Phoenix LiveView",
+        licenses: ["MIT"],
+        links: %{github: "https://github.com/ntodd/phx_heroicons"}
+      ]
     ]
   end
 
