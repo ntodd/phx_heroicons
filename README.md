@@ -2,12 +2,6 @@
 
 [Heroicons](https://heroicons.com/) components for [Phoenix LiveView](https://github.com/phoenixframework/phoenix_live_view).
 
-## Why this one?
-
-1. Most other available packages load the SVG files from disk. This package generates heex components which are precompiled and therefore very fast.
-2. The generated components can be customized with custom classes and additional attributes (see [Usage](#usage)).
-3. The package can be easily updated by running `mix heroicons.generate HEROICONS_VERSION`. No external deps like `npm` are required to keep it current.
-
 Docs can be found at <https://hexdocs.pm/phx_heroicons>.
 
 ## Installation
